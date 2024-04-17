@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+#navbar{
+    display: flex;
+
+}
+.ulist{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+}
