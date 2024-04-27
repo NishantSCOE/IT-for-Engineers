@@ -19,19 +19,17 @@ header {
     display: block;
 
 }
-.div3 img{
+
+.div3 img {
     border: 2px solid white;
     border-radius: 30px;
 }
 
 .main_div {
     display: flex;
-    /* border: 2px solid; */
     width: 100%;
     text-transform: uppercase;
     height: 33rem;
-
-
 }
 
 img {
@@ -42,7 +40,7 @@ img {
     margin-left: 200px;
 }
 
-ul {
+.main_div ul {
     list-style-type: none;
     margin-left: 25px;
 }
@@ -52,17 +50,24 @@ ul {
     word-spacing: 3px;
     line-height: 200%;
 }
-hr{
+
+hr {
     margin: 0 40px;
     border: 0;
-    background:rgb(37, 37, 156);
+    background: rgb(37, 37, 156);
     height: 1px;
 }
-.education{
-    height: 800px;
+
+.education {
+    height: 33rem;
     width: 100%;
 }
-table{
+
+.education h2 {
+    margin-top: 35px;
+}
+
+table {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
@@ -71,19 +76,77 @@ table{
     text-align: center;
     border-collapse: collapse;
 }
-table tr th{
+
+table tr th {
     background-color: rgb(9, 9, 63);
     height: 100px;
-    border: 1px solid rgb(62, 85, 134); 
-}
-table tr td{
     border: 1px solid rgb(62, 85, 134);
-    height: 70px; 
+}
+
+table tr td {
+    border: 1px solid rgb(62, 85, 134);
+    height: 70px;
 
 }
-.data{
+
+.data {
     background-color: rgb(20, 20, 97);
 }
-.data:hover{
+
+.data:hover {
     background-color: rgb(40, 40, 151);
+}
+
+.skills {
+    height: 33rem;
+}
+
+.skill_div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.4em;
+}
+
+.skill_div1 {
+    height: 380px;
+    width: 45%;
+}
+.skill_div1 ul{
+    height: 100px;
+    margin-left: 100px;
+}
+.skill_div1 ul li{
+    padding:2px 0;
+}
+.skill_div1 h3{
+    margin-left: 80px;
+}
+.skill_div2 {
+    height: 380px;
+    width: 45%;
+}
+.skill_div2 ul{
+    height: 100px;
+    margin-left: 100px;
+}
+.skill_div2 h3{
+    margin-left: 80px;
+}
+.skill_div2 p{
+    padding: 0;
+    margin: 0;
+    word-spacing: 3px;
+    margin-left: 100px;
+}
+.skills h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.skill_ul1 {
+    word-spacing: 3px;
+}
+#hr1{
+    margin-top: 15px;
 }
