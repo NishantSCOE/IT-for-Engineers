@@ -112,33 +112,41 @@ table tr td {
     height: 380px;
     width: 45%;
 }
-.skill_div1 ul{
+
+.skill_div1 ul {
     height: 100px;
     margin-left: 100px;
 }
-.skill_div1 ul li{
-    padding:2px 0;
+
+.skill_div1 ul li {
+    padding: 2px 0;
 }
-.skill_div1 h3{
+
+.skill_div1 h3 {
     margin-left: 80px;
 }
+
 .skill_div2 {
     height: 380px;
     width: 45%;
 }
-.skill_div2 ul{
+
+.skill_div2 ul {
     height: 100px;
     margin-left: 100px;
 }
-.skill_div2 h3{
+
+.skill_div2 h3 {
     margin-left: 80px;
 }
-.skill_div2 p{
+
+.skill_div2 p {
     padding: 0;
     margin: 0;
     word-spacing: 3px;
     margin-left: 100px;
 }
+
 .skills h2 {
     text-align: center;
     margin-top: 30px;
@@ -147,6 +155,7 @@ table tr td {
 .skill_ul1 {
     word-spacing: 3px;
 }
-#hr1{
+
+#hr1 {
     margin-top: 15px;
 }
